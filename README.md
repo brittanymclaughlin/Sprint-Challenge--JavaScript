@@ -24,15 +24,38 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
+
+
+
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+**********************************************************************************
+The forEach method runs an object through a loop however does not actually return anything. A map on the other hand runs the same type of loop throughout the certain object, it creates a new array.
+**********************************************************************************
 
 2. Explain the difference between a callback and a higher order function.
+**********************************************************************************
+A callback is a function written that is called inside of another function. Callbacks are usually functions that 
+can be used to be built upon further by a higher order function. The higher order function is a function that essentially runs a function inside of it to produce a certain wanted result. 
+**********************************************************************************
 
 3. What is closure?
+**********************************************************************************
+Closure is where the inside function has access to the outside functions variable(s). If a function does not have closure then it cannot access variables that it may need to perform certain actions. 
+**********************************************************************************
 
 4. Describe the four rules of the 'this' keyword.
+**********************************************************************************
+The four rules of the 'this' keyword are: globally, implicitly, new, and explicitly. 
+- Globally using 'this' means that the value of 'this' will be the window object and it will return a bunch of variables.
+- Implicitly means that whenever a function is called by a dot the object before that dot is the object of 'this' keyword. It's referring to the function that it is inside of.
+- New binding of the 'this' keyword refers to the instance of the object that is being created/returned by the constructor function. 
+- Explicit binding happens when 'call' or 'apply' methods are used, they tell you exactly what 'this' is.
+**********************************************************************************
 
 5. Why do we need super() in an extended class?
+**********************************************************************************
+The super() function inside of an extended class is the way to call the information from the parent class so that the information is also inside of the extended class. 
+**********************************************************************************
 
 ### Task 1 - Project Set up
 
